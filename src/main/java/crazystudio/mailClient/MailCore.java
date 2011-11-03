@@ -56,7 +56,7 @@ public class MailCore{
 				DataSource source = new FileDataSource(s);
 				messageBodyPart.setDataHandler(new DataHandler(source));
 			
-				String fileName=s.substring(s.lastIndexOf('/')+1, s.length()-1); 
+				String fileName=s.substring(s.lastIndexOf('/')+1, s.length()); 
 				messageBodyPart.setFileName(fileName);
 			
 				multipart.addBodyPart(messageBodyPart);

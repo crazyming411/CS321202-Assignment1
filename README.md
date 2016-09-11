@@ -27,6 +27,3 @@ API Site: http://www.oracle.com/technetwork/java/javamail/
 	Set your `username` and `password` (LINE 14, 15) for the selected `host` (LINE 12).
 
 4. You will get a message `Successfully sent.` inside the console if the mail is sent successfully.
-
-
-© Copyright by ChenYu Hsu 2011 All Rights Reserved.
